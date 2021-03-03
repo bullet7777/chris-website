@@ -1,3 +1,69 @@
 body {
     background-color: black;
 }
+
+.nav-bar-main {
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    left:0;
+    right:0;
+    padding: 40px 60px;
+}
+
+
+/*chris-header start*/
+.chris-header-title {
+    text-decoration: none;
+}
+.chris-span-title {
+color:white;
+font-size: 28px;
+font-weight: bold;
+}
+.chris-span-dot {
+    color:red;
+    font-size: 28px;
+    font-weight: bold;
+}
+/*chris-header-end*/
+
+/*menu-main start*/
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.home, .contact, .about-me, .services {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+.home:hover, .contact:hover, .about-me:hover, .services:hover {
+    color: red;
+}
+/*menu-main end*/
+
+/*phone-number start*/
+.phone-number-main {
+    align-items: center;
+    display: flex;
+}
+.number {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*phone-number end*/
+
+
+
