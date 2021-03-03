@@ -13,22 +13,27 @@ body {
 
 
 /*chris-header start*/
+
 .chris-header-title {
     text-decoration: none;
 }
+
 .chris-span-title {
 color:white;
 font-size: 28px;
 font-weight: bold;
 }
+
 .chris-span-dot {
     color:red;
     font-size: 28px;
     font-weight: bold;
 }
+
 /*chris-header-end*/
 
 /*menu-main start*/
+
 .main-menu {
     display: flex;
     justify-content: space-between;
@@ -49,13 +54,16 @@ font-weight: bold;
 .home:hover, .contact:hover, .about-me:hover, .services:hover {
     color: red;
 }
+
 /*menu-main end*/
 
 /*phone-number start*/
+
 .phone-number-main {
     align-items: center;
     display: flex;
 }
+
 .number {
     font-size: 20px;
     color: white;
@@ -63,7 +71,94 @@ font-weight: bold;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 /*phone-number end*/
 
+/*left border line and social media start*/
+
+.menu-bar-line-social-media {
+    position: fixed;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.left-line {
+    border-left: 1px solid white;
+    height: 270px;
+    margin-left: 5px;
+}
+
+.social-media-main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fa-facebook-f ,.fa-twitter ,.fa-instagram {
+    color: white;
+    margin-top: 40px;
+    font-size: 21px;
+}
+.fa-facebook-f:hover ,.fa-twitter:hover ,.fa-instagram:hover {
+    color: #cf000f;
+}
+
+.left-line-2 {
+    border-left: 1px solid white;
+    height:270px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.chris-copyright {
+margin-top: 40px;
+}
+
+.copy-chris {
+color:white;
+font-size: 15px;
+font-weight: 400;
+}
+
+.year-2021 {
+color:red;
+font-size: 15px;
+font-weight: 400;
+}
+
+/*left border line and social media end*/
+
+/*home page body start*/
+
+.main-container {
+    margin: 0 auto;
+    width: 1140px;
+    padding-top: 330px;
+}
+
+.software-eng-title {
+    color:white;
+    font-size: 25px;
+    letter-spacing: 3.2px;
+}
 
 
+.chris-span-title-text {
+    color:white;
+font-size: 120px;
+font-weight: bold;
+
+}
+.chris-span-dot-text {
+    color:red;
+    font-size: 120px;
+    font-weight: bold;
+}
+.quote {
+    color:white;
+    letter-spacing: 2px;
+    font-size:23px
+}
+
+
+/*home page body start*/
