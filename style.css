@@ -162,3 +162,121 @@ font-weight: bold;
 
 
 /*home page body start*/
+
+
+/*about me container start*/
+
+.about-me-main-container {
+    padding-top: 390px;
+    margin: 0 auto;
+    width: 1140px;
+}
+.image-info-main {
+    display: flex;
+    flex-direction: row;
+    margin-top:200px;
+}
+
+.about-me-main {
+    margin-left: 100px;
+}
+.about-me-title {
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.box-hi-there {
+    border: 3px solid white;
+    width: 161px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-title {
+    font-size: 24px;
+    color:white;
+    font-weight: 400;
+}
+.image-chris {
+    width: 433px;
+    height: 499px;
+}
+
+.description {
+    color:white;
+    font-size: 16px;
+    letter-spacing: 2px ;
+    margin-top: 30px;
+}
+
+.desc-info-main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.email-main {
+    margin-left: 100px;
+}
+
+
+.desc-name {
+color:orange;
+font-size: 16px;
+letter-spacing: 2px;
+}
+
+.phone-title {
+    color:orange;
+font-size: 16px;
+letter-spacing: 2px;
+margin-top:30px;
+}
+
+.desc-email {
+    color:orange;
+font-size: 16px;
+letter-spacing: 2px;
+}
+
+.desc-twitter {
+    color:orange;
+font-size: 16px;
+letter-spacing: 2px;
+margin-top:30px;
+}
+
+.desc-title {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.phone-desc {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.desc-email-info {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.desc-twitter-info {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/*about me container end*/
