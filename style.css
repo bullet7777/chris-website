@@ -279,4 +279,59 @@ margin-top:30px;
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+.line-seperator {
+   height: 1px;
+   background-color: grey;
+   margin-top: 30px;
+
+}
+
+/*buttons contact me and download cv start*/
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+
+.contact-me-button {
+    border:2px solid orange;
+    width: 149px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+.download-cv-button {
+    border:2px solid blue;
+    width: 149px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    background-color: black;
+   
+}
+
+.contact-me-title{
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+}
+.cv-button-title {
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+
+/*buttons contact me and download cv end*/
+
 /*about me container end*/
+
+
+
