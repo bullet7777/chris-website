@@ -334,4 +334,193 @@ margin-top:30px;
 /*about me container end*/
 
 
+/*services start*/
+.services-title {
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.services-main-container {
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 1140px;
+}
+.years-of-experience-container {
+    display: flex;
+    flex-direction: row;
+    margin-top:150px;
+}
+.box-of-experience{
+    border:1px solid grey;
+    height:500px;
+    width:380px;
+    border-right:1px solid black;
+}
+
+.how-many-years {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.one-year {
+    font-size: 250px;
+    font-weight: bold;
+    color:white;
+}
+.one-year-dot {
+    font-size:250px;
+    font-weight: bold;
+    color:red;
+}
+
+.year-type-main {
+    display: flex;
+    flex-direction: row;
+    margin-top:40px;
+    justify-content: center;
+}
+.base-line {
+   height:2px;
+   background-color: grey;
+    width:80px;
+    margin-top: 80px;
+}
+.desc-year-main {
+margin-left:30px;
+}
+.years {
+    font-size: 25px;
+    color:grey;
+    text-align: right;
+
+}
+.experience {
+    font-size: 25px;
+    color:grey;
+    text-align: right;
+}
+.working {
+    font-size: 25px;
+    color:grey;
+    text-align: right;
+}
+/*services start*/
+
+/*percentage start*/
+.coding-experience {
+    margin-left: 200px;
+}
+.great-experience {
+color:white;
+font-size: 45px;
+font-family: bold;
+letter-spacing: 2px;
+font-weight: bold;
+
+}
+.desc-great-experience {
+    color:grey;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top:40px;
+
+            }
+
+.web-design {
+color:white;
+font-weight: bold;
+font-size: 20px;
+margin-top:40px;
+padding-bottom: 20px;
+          }
+
+.web-des-line {
+height:5px;
+background-color: grey;
+border-radius: 100px;
+
+            }
+.perc-line-web-des {
+height: 5px;
+background-color: red;
+width:85%;
+border-radius: 100px;
+}
+
+.web-design-perc {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right:377px;
+    top:2240px;
+
+           }
+
+.application-development {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:40px;
+    padding-bottom: 20px;
+            }
+
+.app-dev-line {
+    height:5px;
+    background-color: grey;
+    border-radius: 100px;
+           }
+
+           .perc-app-dev-line {
+            height: 5px;
+            background-color: red;
+            width:90%;
+            border-radius: 100px;
+
+        }
+
+.app-dev-perc {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right:377px;
+    top:2330px;
+            }
+
+.word-press {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:40px;
+    padding-bottom: 20px;
+            }
+
+.word-press-line {
+    height:5px;
+    background-color: grey;
+    border-radius: 100px;
+            }
+
+ .perc-word-press-line {
+    height: 5px;
+    background-color: red;
+    width:80%;
+    border-radius: 100px;
+            }
+
+.word-press-perc {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right:377px;
+    top:2420px;
+            }
+
+/*percentage end*/
 
